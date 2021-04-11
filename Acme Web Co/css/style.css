@@ -4,6 +4,9 @@
     padding : 0; 
     background-color : #f4f4f4;
  }
+  input{
+    border-radius:10px;
+  }
 
  /*global*/
 
@@ -21,9 +24,10 @@
  .button_1{
 
     border : 0;
+    border-radius:10px;
     color : #fff;
     background :#e8491d;
-    height : 38px; 
+    height : 36px; 
     padding : 0px 20px ; 
  }
  .dark{
@@ -31,7 +35,8 @@
      background : #35424a; 
      color : #fff;
      margin-top : 10px ; 
-     margin-bottom : 10px ;  
+     margin-bottom : 10px ;
+     border-radius:20px;  
  }
  
  header {
@@ -128,10 +133,11 @@
  aside#sidebar{
      float : right ; 
      width : 30%;
-     margin-top : 10px ; 
+     margin-top : 10px ;
 
  }
  .quote input , .quote textarea{
+    border-radius:10px;
     width: 90%;
     padding: 5px;
     margin : 5px 0px ; 
@@ -142,7 +148,8 @@
      margin-bottom : 5px ;
      border : 1px solid #ccc;
      padding : 20px ; 
-     margin-bottom : 5px ; 
+     margin-bottom : 5px ;
+     border-radius:20px; 
  }
  footer {
     color : #fff;
